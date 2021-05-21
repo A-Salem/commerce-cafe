@@ -1,0 +1,34 @@
+module.exports = [{
+  name: "COFFEE_MACHINE_LARGE",
+  type: "machine",
+  water_line_compatible: true
+}, {
+  name: "COFFEE_MACHINE_SMALL",
+  type: "machine",
+  water_line_compatible: true
+}, {
+  name: "ESPRESSO_MACHINE",
+  type: "machine",
+  water_line_compatible: true
+}, {
+  name: "COFFEE_MACHINE_LARGE",
+  type: "machine",
+  water_line_compatible: false
+}, {
+  name: "COFFEE_MACHINE_SMALL",
+  type: "machine",
+  water_line_compatible: false
+}, {
+  name: "ESPRESSO_MACHINE",
+  type: "machine",
+  water_line_compatible: false
+}, {
+  name: "COFFEE_POD_LARGE",
+  type: "pod"
+}, {
+  name: "COFFEE_POD_SMALL",
+  type: "pod"
+}, {
+  name: "ESPRESSO_POD",
+  type: "pod"
+}];
